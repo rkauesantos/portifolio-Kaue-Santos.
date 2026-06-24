@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Kaue Fernandes</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header>
+        <h2>Kaue Fernandes</h2>
+
+        <button id="tema"> ☀️ </button>
+    </header>
+
+    <main>
+
+        <aside class="perfil">
+
+            <img src="./IMG/image.jpg" alt="Minha Foto">
+
+            <h2>Kaue Fernandes</h2>
+
+            <p class="cargo">
+                Desenvolvedor Front-End
+                Desenvolvedor Back-End
+            </p>
+
+            <div class="linha"></div>
+
+            <div class="info">
+                <p><strong>Cidade:</strong> São Paulo</p>
+                <p><strong>Idade:</strong> 16 anos</p>
+                <p><strong>Email:</strong> rkaue990@gmail.com</p>
+            </div>
+
+            <div class="redes">
+                <a href="https://github.com/rkauesantos">GitHub</a>
+                <a href="https://www.instagram.com/rkaue_santos?igsh=MXFhb3M4bm94cmdoNw==">Instagram</a>
+            </div>
+
+        </aside>
+
+        <section class="conteudo">
+
+            <h1>Meu Portfólio</h1>
+
+            <p class="descricao">
+                Aqui estão alguns dos projetos que desenvolvi utilizando HTML e CSS
+            </p>
+
+            <div class="projetos">
+
+                <div class="card">
+
+                    <img src="IMG/playlist.jpg" alt="Projeto">
+
+                    <h3>Projeto Playlist</h3>
+
+                    <p>
+                        Site inspirado no Spotify utilizando HTML e CSS.
+                    </p>
+                    <a href="https://enzoperfeicao-ops.github.io/PlaylistMusical/"
+                    target="_blank">
+                    <button>Ver Projeto</button>
+                    </a>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="IMG/imagecurriculo.jpg" alt="Projeto">
+
+                    <h3>Currículo Online</h3>
+
+                    <p>
+                        Currículo profissional desenvolvido em HTML e CSS.
+                    </p>
+                   <a href="https://rkauesantos.github.io/Curriculo/"
+                    target="_blank">
+                    <button>Ver Projeto</button>
+                   </a>
+
+                </div>
+
+                <div class="card">
+
+                    <img src="IMG/carrosimage.jpg" alt="Projeto">
+
+                    <h3>Carros Antigos</h3>
+
+                    <p>
+                        Página sobre carros clássicos com informações e imagens.
+                    </p>
+                    <a href="https://rkauesantos.github.io/Projeto-Carros/"
+                    target="_blank">
+                    <button>Ver Projeto</button>
+                    </a>
+
+                </div>
+
+                   <div class="card">
+
+                    <img src="IMG/lugaresimage.jpg" alt="Projeto">
+
+                    <h3>Lugares para se visitar</h3>
+
+                    <p>
+                        Pagina sobre Lugares Importantes com Especificações e imagens.
+                    </p>
+                    <a href="/https://rkauesantos.github.io/Curriculo/"
+                    target="_blank">
+                     <button>Ver Projeto</button>
+                  </a>
+                  </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <script>
+
+        const tema = document.getElementById("tema");
+
+        tema.addEventListener("click", () => {
+            document.body.classList.toggle("claro");
+        });
+
+    </script>
+
+</body>
+
+</html>
